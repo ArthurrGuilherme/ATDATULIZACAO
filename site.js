@@ -16,6 +16,13 @@ document.querySelector("#servicos").addEventListener("click", function (event) {
 
     console.log("go to up");
 });
+document.querySelector("#btn-sessao-secundario").addEventListener("click", function (event) {
+    event.preventDefault();
+
+    scrollTo("#conatiner-quarta");
+
+    console.log("go to up");
+});
 
 /*Numeros*/
 let valueDisplays = document.querySelectorAll(".texto_numeros, texto_numeros02");

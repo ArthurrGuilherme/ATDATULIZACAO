@@ -167,7 +167,7 @@
 
 /*Quarta*/
 .conatiner-quarta {
-    height: 300px;
+    height: 350px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -185,4 +185,12 @@
 .texto-quarta {
     width: 490px;
     color: var(--color-secundaria);
+}
+#btn-sessao-quarta {
+    min-width: 30%;
+}
+#btn-quarta {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
 }
