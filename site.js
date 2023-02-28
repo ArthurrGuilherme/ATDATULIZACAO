@@ -6,14 +6,13 @@ document.querySelector("#btn-primaria").addEventListener("click", function (even
 
     console.log("go to up");
 });
-
 function scrollTo(element) {
     document.querySelector(element).scrollIntoView({ behavior: "smooth" });
 }
-document.querySelector("#Serviços").addEventListener("click", function (event) {
+document.querySelector("#servicos").addEventListener("click", function (event) {
     event.preventDefault();
 
-    scrollTo("#section_Serviços");
+    scrollTo("#container-servicos");
 
     console.log("go to up");
 });
