@@ -1,0 +1,19 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    font-family: 'Tilt Neon', cursive;
+    text-decoration: none;
+    list-style: none;
+}
+:root {
+    --color-primaria: #000;
+    --color-secundaria: #fff;
+    --color-terceira: #ffffff82;
+    --color-quarta: #DAA520;
+    --color-quinta: #daa52000;
+}
+strong {
+    color: var(--color-quarta);
+    background: var(--color-quinta);
+}

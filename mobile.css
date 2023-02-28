@@ -1,0 +1,36 @@
+/*Reset*/
+@media (max-width: 900px) {
+    .navbar-list {
+        display: none;
+    }
+    header {
+        box-shadow: 0 0 5px #fff, 0 0 15px #fff;
+    }
+}
+/*Primaria*/
+@media (max-width: 900px) {
+    .titulo-primaria {
+        width: auto;
+    }
+    .texto-primaria {
+        width: auto;
+    }
+    .sessao-primaria {
+        padding: 0px 1rem;
+    }
+    .btn-sessao-primaria {
+        min-width: 100%;
+    }
+}
+/*secundaria*/
+@media (max-width: 900px) {
+    .sessao-secundaria {
+        padding: 0px 2rem;
+    }   
+    .texto-secundaria {
+        width: auto;
+    }
+    #btn-sessao-secundario {
+        min-width: 100%;
+    }
+}

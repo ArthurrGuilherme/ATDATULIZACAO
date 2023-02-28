@@ -1,0 +1,158 @@
+/*Primaria*/
+.container-primaria {
+    background: url(https://i.pinimg.com/564x/69/91/36/699136c380ebc7f0968aa12d2430919b.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.sessao-primaria {
+    height: 521px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background: linear-gradient(45deg, transparent, black, #0000);
+}
+.titulo-primaria {
+    width: 557px;
+    text-align: center;
+    font-size: 2rem;
+    color: var(--color-secundaria);
+}
+.texto-primaria {
+    font-size: 1.1rem;
+    width: 423px;
+    text-align: center;
+    color: var(--color-secundaria);
+}
+.btn-sessao-primaria {
+    background-color: var(--color-quarta);
+    width: 85px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px 0px 15px 0px;
+    cursor: pointer;
+    transition: all .5s;
+    width: max-content;
+    min-width: 15%;
+}
+.btn-primaria {
+    background: var(--color-quarta);
+    text-transform: uppercase;
+    -webkit-text-stroke: thin;
+    color: var(--color-secundaria);
+}
+#seta {
+    font-size: 2.5rem;
+    cursor: pointer;
+    position: relative;
+    animation: seta 1s infinite;
+    color: var(--color-secundaria);
+}
+/*Efeitos*/
+.btn-sessao-primaria:hover {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+    box-shadow: 0 0 5px #DAA520, 0 0 25px #DAA520;
+}
+@keyframes seta {
+    from {top: 0px;}
+    to {top: 15px;}
+  }
+
+/*Secundaria*/
+.sessao-secundaria {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 0px 0px 5rem;
+    gap: 1.5rem;
+    background: var(--color-primaria);
+}
+.titulo-secundaria {
+    width: 300px;
+    color: var(--color-secundaria);
+}
+.texto-secundaria {
+    width: 490px;
+    color: var(--color-secundaria);
+}
+#seta-secundaria {
+    background-color: var(--color-quarta);
+    font-size: 1.5rem;
+}
+#btn-secundario {
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+    color: var(--color-secundaria);
+}
+#btn-sessao-secundario {
+    min-width: 20%;
+}
+
+/*Terceiro*/
+.texto-terceiro {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+.cards-sesssao {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.card-sessao-teceiro {
+    background: #0000002b;
+    width: 250px;
+    border-radius: 20px;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem;
+}
+.tema-card {
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: .2rem;
+}
+.produtos-cards {
+    list-style: outside;
+    color: #08080899;
+}
+.lista-card {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#btn-terceiro {
+    min-width: 90%;
+}
+#style-card {
+    background: #dcd7d771;
+    cursor: pointer;
+    transition: all .5s;
+}
+#style-card:hover {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+    background: #0000002b;
+}
+.bx-right-arrow-alt {
+    font-size: 1.6rem;
+}
+#btn-terceiro-link {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
