@@ -17,3 +17,6 @@ strong {
     color: var(--color-quarta);
     background: var(--color-quinta);
 }
+.organicao-primaria, .container-terceiro, #quarta {
+visibility: hidden;
+}

@@ -26,7 +26,7 @@ document.querySelector("#btn-sessao-secundario").addEventListener("click", funct
 
 /*Numeros*/
 let valueDisplays = document.querySelectorAll(".texto_numeros, texto_numeros02");
-let interval = 1000000;
+let interval = 105555;
 
 
 valueDisplays.forEach((valueDisplay) => {
@@ -43,3 +43,14 @@ valueDisplays.forEach((valueDisplay) => {
     }, duration);
 
 });
+
+/*Efeito do mapeamento*/
+window.sr = ScrollReveal({ reset: true});
+
+sr.reveal('.organicao-primaria', { duration: 2000});
+
+sr.reveal('#quarta', { duration: 2500,
+    rotate: {x:80, y:0, z:0}
+});
+
+sr.reveal('.container-terceiro', { duration: 2000});
