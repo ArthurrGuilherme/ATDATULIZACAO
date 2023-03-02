@@ -1,6 +1,6 @@
 /*Reset*/
 @media (max-width: 900px) {
-    .navbar-list {
+    .navbar {
         display: none;
     }
     header {
@@ -11,26 +11,130 @@
 @media (max-width: 900px) {
     .titulo-primaria {
         width: auto;
+        font-size: 1.5rem;
     }
     .texto-primaria {
         width: auto;
+        font-size: 1rem;
+    }
+    .organicao-primaria {
+        gap: 1rem;
     }
     .sessao-primaria {
         padding: 0px 1rem;
     }
     .btn-sessao-primaria {
         min-width: 100%;
+        font-size: 0.9rem;
     }
 }
 /*secundaria*/
 @media (max-width: 900px) {
+    .titulo-secundaria {
+        width: auto;
+        font-size: 1.5rem;
+        text-align: center;
+    }
     .sessao-secundaria {
         padding: 0px 2rem;
     }   
     .texto-secundaria {
         width: auto;
+        font-size: 1rem;
+        text-align: center;
     }
     #btn-sessao-secundario {
         min-width: 100%;
+    }
+}
+/*Quarta*/
+@media (max-width: 900px) {
+    .sessao-quarta {
+        padding: 0px;
+        align-items: center;
+        text-align: center;
+    }
+    #quarta {
+        align-items: center;
+        gap: 1.5rem;
+        padding: 0px 1rem;
+    }  
+    .texto-quarta {
+        width: auto;
+        font-size: 0.9rem;
+    }  
+    #btn-sessao-quarta {
+        min-width: 100%;
+        font-size: .8rem;
+    }
+}
+/*Terceiro*/
+@media (max-width: 900px) {
+    .texto-terceiro {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    .cards-sesssao {
+        gap: 1.5rem;
+    }
+}
+/*Metodologia*/
+@media (max-width: 600px) {
+    .container_metodologia {
+        height: auto;
+        padding: 2rem 0px;
+        gap: 2rem;
+    }
+    .organizacao_cubo {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .sessao_titulo_metodologia {
+        text-align: center;
+    }
+    .cubo_top {
+        width: 100px;
+        height: 100px;
+    }
+    .metodologia_titulo {
+        font-size: 1.2rem;
+    }
+}
+/*Numeros | Mobile*/
+@media (max-width: 600px) {
+    .Organizacao_cubo_numeros {
+        flex-direction: column;
+        gap: 2.5rem;
+    }
+    .sessao_numero_titulo {
+        text-align: center;
+        padding: 0px 1rem;
+        width: auto;
+        gap: 0.5rem;
+    }
+    .texto_numeros_ADC, .texto_numeros {
+        font-size: 1rem;
+    }
+    .organizacao_adc {
+        height: 17px;
+    }
+    .container-numeros {
+        flex-direction: column;
+    }
+    .sessao-texto-numeros {
+        font-size: 1.2rem;
+    }
+}
+/*Footer*/
+@media (max-width: 600px) {
+    .sessao-informacao {
+        height: auto;
+        flex-direction: column;
+        padding: 1rem;
+        align-items: baseline;
+        gap: 1.5rem;
+    }
+    .sessao-fotter {
+        text-align: center;
     }
 }
