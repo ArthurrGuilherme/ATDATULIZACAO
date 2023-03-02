@@ -52,3 +52,65 @@
 .list-link:hover {
     color: var(--color-secundaria);
 }
+
+/*footer*/
+footer {
+    background: var(--color-primaria);
+    color: var(--color-secundaria);
+}
+.sessao-informacao {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 230px;
+}
+.sessao-esquerda-foooter {
+    width: 211px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.texto-footer {
+    color: var(--color-terceira);
+}
+.redes-socias {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1.2rem;
+}
+#redes-icone {
+    color: var(--color-terceira);
+    cursor: pointer;
+    transition: all .5s;
+}
+#redes-icone:hover {
+    color: var(--color-secundaria);
+}
+.sessao-servicos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5rem;
+}
+.servicos-links {
+    color: var(--color-terceira);
+    cursor: pointer;
+    transition: all .5s;
+}
+.servicos-links:hover {
+    color: var(--color-secundaria);
+}
+.sessao-center {
+    padding: 0px 8rem;
+}
+.borda-style {
+    color: var(--color-terceira);
+    border: .1px solid;
+}
+.sessao-fotter {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
