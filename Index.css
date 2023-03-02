@@ -15,14 +15,14 @@
     background: #000000a5;
 }
 .titulo-primaria {
-    width: 557px;
+    width: 623px;
     text-align: center;
     font-size: 2rem;
     color: var(--color-secundaria);
 }
 .texto-primaria {
     font-size: 1.1rem;
-    width: 423px;
+    width: 536px;
     text-align: center;
     color: var(--color-secundaria);
 }
@@ -88,11 +88,11 @@
     background: var(--color-primaria);
 }
 .titulo-secundaria {
-    width: 300px;
+    width: 348px;
     color: var(--color-secundaria);
 }
 .texto-secundaria {
-    width: 490px;
+    width: 545px;
     color: var(--color-secundaria);
 }
 #seta-secundaria {
@@ -135,9 +135,9 @@
     justify-content: center;
     flex-direction: column;
     padding: 2rem;
+    padding-right: 13px;
 }
 .tema-card {
-    height: 90px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -162,7 +162,7 @@
     transition: all .5s;
 }
 .bx-right-arrow-alt {
-    font-size: 1.6rem;
+    font-size: 1.3rem;
     position: relative;
     animation: seta-esquerda 1s infinite;
 }
@@ -170,6 +170,7 @@
     display: flex;
     align-items: center;
     gap: .5rem;
+    font-size: .8rem;
 }
 
 /*Efeitos*/
@@ -200,11 +201,11 @@
     background: #000000be;
 }
 .titulo-quarta {
-    width: 300px;
+    width: 323px;
     color: var(--color-secundaria);
 }
 .texto-quarta {
-    width: 490px;
+    width: 560px;
     color: var(--color-secundaria);
 }
 #btn-sessao-quarta {
@@ -226,7 +227,7 @@
     align-items: center;
     justify-content: space-evenly;
     flex-direction: column;
-    height: 800px;
+    height: 730px;
 }
 .metodologia_titulo {
     font-size: 2.5rem;
@@ -265,7 +266,7 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 500px;
+    width: 535px;
     gap: 1.5rem;
 }
 .Organizacao_cubo_numeros {
@@ -288,7 +289,7 @@
     font-size: 2.5rem;
 }
 .sessao-texto-numeros {
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 .style-cubo {
     display: flex;
