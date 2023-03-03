@@ -127,51 +127,47 @@
     flex-wrap: wrap;
 }
 .card-sessao-teceiro {
-    background: #0000002b;
     width: 250px;
     border-radius: 20px;
     display: flex;
     align-items: baseline;
     justify-content: center;
     flex-direction: column;
-    padding: 1rem 8px 1rem 2rem;
+    padding: 2rem;
     gap: 1rem;
 }
 .tema-card {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: .2rem;
+    gap: .8rem;
 }
 .produtos-cards {
-    list-style: outside;
     color: #08080899;
 }
 .lista-card {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap: .5rem;
 }
 #btn-terceiro {
-    min-width: 90%;
+    min-width: 100%;
 }
 #style-card {
     background: #dcd7d771;
     cursor: pointer;
     transition: all .5s;
 }
-.bx-right-arrow-alt {
-    font-size: 1.3rem;
-    position: relative;
-    animation: seta-esquerda 1s infinite;
-}
 #btn-terceiro-link {
     display: flex;
     align-items: center;
     gap: .5rem;
+    font-size: .7rem;
+}
+.h4 {
     font-size: .8rem;
 }
-
 /*Efeitos*/
 #style-card:hover {
     -webkit-transform: scale(0.9);
