@@ -114,3 +114,42 @@ footer {
     align-items: center;
     justify-content: center;
 }
+
+/*Btn lateral*/
+.scrollbottom {
+    outline: none;
+    bottom: 10px;
+    z-index: 999;
+    cursor: pointer;
+    transition: all 2s ease;
+    right: 16px;
+}
+.div-list-ul {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  justify-content: end;
+  bottom: 15px;
+  top: 0px;
+  right: 10px;
+  list-style: none;
+  font-size: 2rem;
+  z-index: 1;
+}
+#icon-rodape-bx {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #25d366;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+#icon-rodape-bx:hover {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+}
